@@ -118,7 +118,7 @@ h1 {
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-.name-modal{
+.name-modal {
     width: 70%;
     padding-left: 30px;
     color: white;
@@ -126,7 +126,8 @@ h1 {
     font-size: 20px;
     margin-top: -27px;
 }
-.info .number-modal{
+
+.info .number-modal {
     color: white;
     font-size: 10px;
     text-align: right;
@@ -134,33 +135,36 @@ h1 {
     margin-top: -42px;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: center;
     margin-top: 0px;
 }
-.image-front img{
+
+.image-front img {
     width: 165px;
     position: fixed;
     margin-left: 24%;
 }
 
-#content{
+#content {
     background-color: white;
     padding: 0px;
     padding-top: 20px;
     margin: 0px;
     border-radius: 15px;
     margin-top: 120px;
-    
+
 }
-.type{
+
+.type {
     width: 80%;
-    display: flex;
     margin: auto;
     margin-top: 5px;
+    margin-right: 8%;
 }
-.type p{
+
+.type p {
     width: 30%;
     justify-content: space-around;
     text-align: center;
@@ -173,50 +177,59 @@ h1 {
     font-size: 14px;
 }
 
-#section-subtitle{
+#section-subtitle {
     text-align: center;
     color: #6666;
     font-weight: bold;
     padding: 20px 0;
 
 }
-.caracteristiques{
+
+.caracteristiques {
     width: 80%;
     margin: auto;
     display: flex;
 }
-.part{
+
+.part {
     width: 30%;
     justify-content: space-between;
     margin: auto;
     text-align: center;
     padding-top: 5px;
 }
-.text{
+
+.text {
     width: 90%;
     margin: auto;
     margin-top: 20px;
     font-size: 12px;
-    
+
 }
-#part1{
+
+#part1 {
     font-size: 10px;
 }
-#part2{
+
+#part2 {
     border-right: 1px solid #6666;
     border-left: 1px solid #6666;
     font-size: 10px;
 }
+
 #part3 p {
-    font-size: 10px; 
+    font-size: 10px;
 }
-.part :first-child{
+
+.part :first-child {
     font-size: 15px;
 }
-#part3 :first-child + p {
+
+#part3 :first-child+p {
     font-size: 15px;
 }
-.part p{
+
+.part p {
     padding: 0px;
 }
 
@@ -270,6 +283,7 @@ h1 {
     margin-bottom: 10%;
     width: inherit;
 }
+
 .statBar {
     margin-bottom: 25px;
     margin-left: 15px;
