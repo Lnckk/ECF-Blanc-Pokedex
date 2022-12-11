@@ -97,6 +97,8 @@ function createPokemonCard(pokemon) {
         document.querySelector(`.type1`).innerHTML = `${pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1)}`
         if (pokemon.types[1]) {
             document.querySelector(`.type2`).innerHTML = `${pokemon.types[1].type.name[0].toUpperCase() + pokemon.types[1].type.name.slice(1)}`
+        } else {
+            document.querySelector(`.type2`).innerHTML = ``
         }
 
         /* afficher ses compétences */
