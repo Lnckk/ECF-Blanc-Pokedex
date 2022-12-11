@@ -79,7 +79,7 @@ function createPokemonCard(pokemon) {
         document.querySelector('#part3 .ability1').innerHTML = `${pokemon.abilities[0].ability.name[0].toUpperCase() + pokemon.abilities[0].ability.name.slice(1)}`;
         if (pokemon.abilities[1]) {
             document.querySelector('#part3 .ability2').innerHTML = `${pokemon.abilities[1].ability.name[0].toUpperCase() + pokemon.abilities[1].ability.name.slice(1)}`;
-        }else {
+        } else {
             // rien
         }
 
@@ -90,10 +90,10 @@ function createPokemonCard(pokemon) {
         document.querySelector(`.number-modal`).innerHTML = `#${pokemon.id.toString().padStart(3, '0')}`;
 
         /* image à l'apparition de la fenêtre */
-        let pokemonImage= document.querySelector(`.pokemon-image`);
-            pokemonImage.src = `${pokemon.sprites.front_default}`;
+        let pokemonImage = document.querySelector(`.pokemon-image`);
+        pokemonImage.src = `${pokemon.sprites.front_default}`;
 
-        /* afficher le(s) type(s) du pokémon */ 
+        /* afficher le(s) type(s) du pokémon */
         document.querySelector(`.type1`).innerHTML = `${pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1)}`
         if (pokemon.types[1]) {
             document.querySelector(`.type2`).innerHTML = `${pokemon.types[1].type.name[0].toUpperCase() + pokemon.types[1].type.name.slice(1)}`
